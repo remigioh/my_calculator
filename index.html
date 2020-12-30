@@ -10,7 +10,8 @@
 		<input type="text" id="n1">
 		<p>
 			<button onclick="cube()"> x^3 </button>
-			<button onclick="sine()"> Seno </button>
+			<button onclick="power_4()"> x^4</button>
+			<button onclick="sine()"> Sin </button>
 		</p>
 		<script type="text/javascript">
 			function cube() {
@@ -20,6 +21,10 @@
 			function sine(){
 				n1.value = Math.sin(n1.value);
 				}
+	
+			function power_4() {
+				n1.value = Math.pow(n1.value, 4);
+			}	
 		</script>
 	</body>
 </html>
